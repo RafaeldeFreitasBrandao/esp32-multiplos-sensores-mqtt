@@ -4,18 +4,15 @@ Este projeto consiste no desenvolvimento de um sistema embarcado em Micropython 
 
 ## Hardware Necessário
 
-- Microcontrolador ESP32 Wifi/Bluetooth 
-|
-- Sensor de Umidade e Temperatura DHT22 (Am2302)
-|
-- Sensor Ultrasônico HC-SR04
-|
-- Leds
-|
-- Buzzer Ativo
-|
+## Hardware necessário
 
-**(Ajuste os pinos conforme o seu código)**
+| Componente | Função | Pino |
+|---|---|---|
+| ESP32 DevKit v1 | Microcontrolador | — |
+| DHT22 | Temperatura e umidade | GPIO 4 |
+| HC-SR04 | Distância (ultrassônico) | Trig: GPIO 5 / Echo: GPIO 18 |
+
+*(ajuste os pinos conforme o seu código)*
 
 ## Tecnologias 
 
