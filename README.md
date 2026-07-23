@@ -63,7 +63,6 @@ mosquitto_sub -h broker.hivemq.com -t "esp32/sensores/#" -v
 | `esp32/sensores/temperatura` | Publica | `{"valor": 24.3, "unidade": "C"}` |
 | `esp32/comandos` | Assina | `led_on` / `led_off` |
 
-*(ajuste para os tópicos reais do seu código)*
 
 ## Detalhes de implementação
 
